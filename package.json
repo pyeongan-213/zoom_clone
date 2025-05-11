@@ -1,0 +1,29 @@
+{
+  "name": "zoom_clone",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyeongan-213/zoom_clone.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "bugs": {
+    "url": "https://github.com/pyeongan-213/zoom_clone/issues"
+  },
+  "homepage": "https://github.com/pyeongan-213/zoom_clone#readme",
+  "description": "Zoom Clone using NodeJS, WebRTC and Websockets.",
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.1",
+    "@babel/node": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pug": "^3.0.3",
+    "ws": "^8.18.2"
+  }
+}
